@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="portal">
+        <nav>
+            <a href="index.html"><img src="./logo1.png" width="90px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portal.html">PORTAL</a></li>
+                    <li><a href="https://www.unn.edu.ng/" target="_blank">BLOG</a></li>
+                    <li><a href="https://www.researchgate.net/institution/University-of-Nigeria2" target="_blank">RESEARCH</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <!-- Portal -->
+    <section class="portal-login">
+        <div class="loginbox">
+            <h1>Login Here</h1>
+            <form>
+                <p>Reg. Number</p>
+                <input type="text" name="" placeholder="Enter Reg. Number">
+                <p>Password</p>
+                <input type="password" name="" placeholder="Enter Password">
+                <br>
+                <input type="submit" name="" value="Login">
+            </form>
+        </div>
+    </section>
+
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="./logo1.png" width="90px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portal.html">PORTAL</a></li>
+                    <li><a href="https://www.unn.edu.ng/" target="_blank">BLOG</a></li>
+                    <li><a href="https://www.researchgate.net/institution/University-of-Nigeria2" target="_blank">RESEARCH</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about">
+        <h1>Mission & Vision Statement</h1>
+        <h2>UNIVERSITY OF NIGERIA</h2>
+        <p>To restore the dignity of man</p>
+        <div>
+            <h2>MISSION STATEMENT</h2>
+            <p>To place the university of Nigeria, Nsukka in the forefront of research and the development ,innovative, knowledge transfer and human resources development in the global academic terrain, while promoting the core values which will ensure the
+                restoration of the dignity of man.</p>
+        </div>
+        <div>
+            <h2>VISION STATEMENT</h2>
+            <p>To create a functional, globally competitive and research focused university which is not just an Ivory Tower but responsive to the needs of the society while delivering world class education and knowledge.</p>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="about">
+        <h1>CONTACT US</h1>
+        <p>Contact us <br> Please contact us through the following email addresses:<br> Professor Charles Arizechukwu Igwe<br> Vice Chancellor<br> vc.unn@unn.edu.ng
+            <br>
+        </p>
+    </section>
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8112574.5204708455!2d-1.0292117000000327!3d6.864455300000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044e7defeff9725%3A0xffb8a28c30660e7d!2sUniversity%20of%20Nigeria%2C%20Nsukka!5e0!3m2!1sen!2sng!4v1656236052914!5m2!1sen!2sng"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- E Learning -->
+    <section class="elearning">
+        <h1>Enroll for our <br>E-learning Programme</h1>
+        <a href="https://elearning.unn.edu.ng/index.php" target="_blank" class="visit">ENROLL NOW</a>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Enquire more about us by checking the About Us page or visiting the school.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+        </div>
+        <p>Copyright &copy; 2022</p>
+        <p>Designed By Chiboka Xmaven</p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

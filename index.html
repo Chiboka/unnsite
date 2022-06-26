@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./logo1.png" width="90px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="portal.html">PORTAL</a></li>
+                    <li><a href="https://www.unn.edu.ng/" target="_blank">BLOG</a></li>
+                    <li><a href="https://www.researchgate.net/institution/University-of-Nigeria2" target="_blank">RESEARCH</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>University of Nigeria</h1>
+            <p>To restore the dignity of man</p>
+            <a href="visit.html" class="visit">Visit Us To Know More</a>
+        </div>
+    </section>
+    <!-- Discover -->
+    <section class="discover">
+        <h1>Discover</h1>
+        <p>Discover more about our school</p>
+        <div class="row">
+            <div class="discover-col">
+                <h3>Admissions</h3>
+                <p>The Admissions Unit of the Registry Department implements the decisions of the University Management as they affect admission of candidates into undergraduate programmes of the University.</p>
+                <p>
+                    <a href="admissions.html" class="readmore">Read More</a>
+                </p>
+            </div>
+            <div class="discover-col">
+                <h3>Campus Life</h3>
+                <p>University of Nigeria, Nsukka Campus Life is the official University of Nigeria, Nsukka entertainment unit created by the University of Nigeria, Nsukka ICT department.</p>
+                <p>
+                    <a href="campuslife.html" class="readmore">Read More</a>
+                </p>
+            </div>
+            <div class="discover-col">
+                <h3>Alumni</h3>
+                <p>Request for your transcript. Login to view shipment progress. Receive update emails on shipment. Obtain tracking Number upon shipment in to view shipment progress>
+                    <p>
+                        <a href="alumni.html" class="readmore">Read More</a>
+                    </p>
+            </div>
+        </div>
+    </section>
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Some of the facilities you can get in our school</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./library.jpg">
+                <h3>Our Library</h3>
+                <p>The University of Nigeria, Nsukka Librabries consist of the Nnamdi Azikiwe library, the Enugu Campus Main Library and the Medical Library located at the College of Medicine, University of Nigeria Teaching Hospital, Enugu.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./2019-09-12.jpg">
+                <h3>Our Stadium</h3>
+                <p>Akanu-Ibiam Stadium UNN is a stadium in Nsukka. Akanu-Ibiam Stadium UNN is situated nearby the Wing B, Faculty of Arts Complex, and close to Works building UNN.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./2019-04-05.jpg">
+                <h3>Our Bookshop</h3>
+                <p>Browse the best selection of books in the UNN bookshop by categories ad subject. Make enquires for books and make purchase orders.</p>
+            </div>
+        </div>
+    </section>
+    <!-- E Learning -->
+    <section class="elearning">
+        <h1>Enroll for our <br>E-learning Programme</h1>
+        <a href="https://elearning.unn.edu.ng/index.php" target="_blank" class="visit">ENROLL NOW</a>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Enquire more about us by checking the About Us page or visiting the school.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+        </div>
+        <p>Copyright &copy; 2022</p>
+        <p>Designed By Chiboka Xmaven</p>
+    </section>
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
